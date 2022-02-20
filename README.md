@@ -2,7 +2,7 @@
 
 ### 1. Clone Repository
 ```sh
-$ git clone https://github.com/minarkhan/resources-management.git
+$ git clone https://github.com/minarkhan/Resources-Management-by-laravel-react.git
 ```
 
 ### 2. BackEnd Installation

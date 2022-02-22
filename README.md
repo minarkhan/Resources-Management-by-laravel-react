@@ -23,7 +23,9 @@ $ DB_DATABASE=(db_name)
 ```sh
 $ php artisan key:generate
 $ php artisan migrate
+$ php artisan storage:link
 $ php artisan serve
+$ Open http://localhost:8000/api as API URL
 ```
 
 ### 5. FrontEnd Installation
@@ -38,4 +40,12 @@ $ npm install
 $ npm start
 $ open http://localhost:3000
 ```
+### Note : 
+```sh
+$ If Uploaded file not showing... than
+$ Delete Storage folder from /Public folder & Run cli:
+$ php artisan storage:link
+```
 # Happy Coding...
+
+
